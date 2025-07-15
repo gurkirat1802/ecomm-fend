@@ -43,7 +43,7 @@ const Home = () => {
     const carouselImages = [carousel1, carousel2];
 
     const cardSliderSettings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
@@ -105,7 +105,7 @@ const Home = () => {
                     </Slider>
                 </div>
 
-                <div className="bg-green-800 text-white px-6 py-8 text-center shadow-md">
+                <div className="bg-green-800 text-white px-6 py-8 text-center shadow-md -mt-2">
                     <h3 className="text-3xl font-semibold mb-4">
                         Buy Ayurvedic Medicine Online from India's Largest Ayurvedic Shopping Store
                     </h3>
@@ -117,7 +117,7 @@ const Home = () => {
                     </p>
                 </div>
 
-                <div className="mt-10 px-5 ml-5">
+                {/* <div className="mt-10 px-5 ml-5">
                     <h2 className="text-3xl font-bold">Shop By Category</h2>
                 </div>
                 <div className="mt-10 ml-20 mx-auto max-w-7xl mr-20">
@@ -129,11 +129,11 @@ const Home = () => {
                             </div>
                         ))}
                     </Slider>
-                </div>
+                </div> */}
 
-                <div className="mt-20 px-5 ml-5">
-                    <h2 className="text-3xl font-bold">New Launches</h2>
-                    <h2 className="text-xl mt-2">New wellness range just for you!</h2>
+                <div className="mt-20 px-5 ml-5 text-center">
+                    <h2 className="text-3xl font-bold">Our Top Selling Ayurvedic Medicines</h2>
+                    <h2 className="text-lg mt-2">New wellness range just for you!</h2>
                 </div>
                 <div className="mt-10 ml-20 mx-auto max-w-7xl mr-20">
                     <Slider {...cardSliderSettings}>
@@ -147,9 +147,9 @@ const Home = () => {
                         ))}
                     </Slider>
                 </div>
-                <div className="mt-20 px-5 ml-5">
-                    <h2 className="text-3xl font-bold">Featured Brands</h2>
-                    <h2 className="text-xl mt-2">Pick from our favourite brands</h2>
+                <div className="mt-20 px-5 ml-5 text-center">
+                    <h2 className="text-3xl font-bold">Our Top Ayurvedic Medicines Brand</h2>
+                    <h2 className="text-lg mt-2">Pick from our favourite brands</h2>
                 </div>
                 <div className="mt-10 ml-20 mx-auto max-w-7xl mr-20 mb-20">
                     <Slider {...cardSliderSettings}>
