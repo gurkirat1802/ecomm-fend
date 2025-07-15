@@ -44,7 +44,7 @@ const Navbar = () => {
                         to="/cart"
                         className="hover:text-gray-700 cursor-pointer text-green-800 font-bold"
                     >
-                        Cart
+                        Cart here
                     </NavLink>
                 </div>
                 {/* <div className="text-lg font-bold h-8 w-60">
